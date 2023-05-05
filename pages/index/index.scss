@@ -1,0 +1,254 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    .top{
+        width: 100%;
+        height: 138.462rpx;
+        background-color: #005826;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 36.538rpx;
+        box-sizing: border-box;
+        .top_content{
+            display: flex;
+            width: 644.231rpx;
+            height: 88.462rpx;
+            background-color: white;
+            border-radius: 15.385rpx;
+            align-items: center;
+            font-size: 28.846rpx;
+            justify-content: space-between;
+            padding: 0 13.462rpx;
+            box-sizing: border-box;
+            .top_content_left{
+                width: 69.231rpx;
+                height: 69.231rpx;
+                border-radius: 15.385rpx;
+                background-color: rgba($color: #00863A, $alpha: 0.83);
+                font-size: 23.077rpx;
+                display: flex;
+                box-sizing: border-box;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                color: white;
+                font-weight: 600;
+            }
+            .top_content_center{
+                font-size: 28.846rpx;
+                color: #333333;
+            }
+            .top_content_right{
+                visibility: hidden;
+            }
+        }
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        padding: 0 36.538rpx;
+        .content_item{
+            display: flex;
+            flex-direction: column;
+            margin: 19.231rpx 0;
+            .content_item_title{
+                font-size: 30.769rpx;
+                color: #273564;
+                font-weight: bold;
+                margin-bottom: 19.231rpx;
+            }
+            .content_item_content{
+                display: flex;
+                justify-content: space-between;
+                .content_item_content_left{
+                    width: 301.923rpx;
+                    height: 323.077rpx;
+                    background-color: #e5f3e9;
+                    font-size: 34.615rpx;
+                    border-radius: 15.385rpx;
+                    display: flex;
+                    .content_item_content_left_item{
+                        width: 100%;
+                        color: #273564;
+                        font-weight: bold;
+                        display: flex;
+                        align-items: flex-start;
+                        height: 69.231rpx;
+                        align-items: center;
+                        margin-left: 19.231rpx;
+                        margin-top: 19.231rpx;
+                        .icon-xiangyou1{
+                            margin-left: 19.231rpx;
+                            border-radius: 50%;
+                            background-color: #A0ADD9;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 23.077rpx;
+                            padding: 3.846rpx;
+                            color: white;
+                        }
+                    }
+                }
+                .content_item_content_right{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .content_item_content_right_item{
+                        width: 315.385rpx;
+                        height: 128.846rpx;
+                        background-color: rgba($color: #FF8E1E, $alpha: 0.2);
+                        border-radius: 15.385rpx;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 0 19.231rpx;
+                        box-sizing: border-box;
+                        .content_item_content_right_item_price{
+                            display: flex;
+                            flex-direction: column;
+                            color: #FF8E1E;
+                            font-size: 38.462rpx;
+                            view:nth-of-type(2){
+                                font-size: 26.923rpx;
+                            }
+                        }
+                        .content_item_content_right_item_icont{
+                            display: flex;
+                            align-items: center;
+                            background-color: #FF7F00;
+                            border-radius: 50%;
+                            width: 92.308rpx;
+                            height: 92.308rpx;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .iconfont{
+                                font-size: 53.846rpx;
+                                color: white;
+                              
+                            }
+                        }
+                    }
+                    .order{
+                        background-color: rgba($color: #17DBCD, $alpha: 0.2);
+                      
+                        .content_item_content_right_item_price{
+                            color: #17DBCD;
+                        }
+                        .content_item_content_right_item_icont{
+                            background-color: #17DBCD;
+                        }
+                    }
+                }
+                .info{
+                    background-color: rgba($color: #E5EDF9, $alpha: 0.32);
+                    display: flex;
+                    padding: 19.231rpx 9.615rpx;
+                    width: 100%;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-radius: 15.385rpx;
+                    .info_left{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .info_item{
+                            font-size: 25rpx;
+                            display: flex;
+                            min-width: 568.462rpx;
+                            justify-content: space-between;
+                            align-items: center;
+                            text:nth-child(2){
+                                color: #999999;
+                            }
+                        }
+                    }
+                     .info_right{
+                        .icon-xiangyou1{
+                            font-size: 38.462rpx;
+                            color: #BBBBBB;
+                        }
+                    }
+                }
+                .orderInformation{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .orderInformation_item{
+                        border-radius: 15.385rpx;
+                        width: 298.077rpx;
+                        height: 186.538rpx;
+                        background-color: rgba($color: #11867D, $alpha: 0.2);
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 0 19.231rpx;
+                        box-sizing: border-box;
+                        color: #1B5C54;
+                        .orderInformation_item_left{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;  
+                            font-size: 38.462rpx;
+                            text:nth-of-type(2){
+                                font-size: 26.923rpx;
+                                margin-top: 9.615rpx;
+                            }
+                        }
+                        .orderInformation_item_right{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .iconfont{
+                                font-size: 53.846rpx;
+                                width: 92.308rpx;
+                                height: 92.308rpx;
+                                display: flex;
+                                background-color: #779995;
+                                align-items: center;justify-content: center;
+                                border-radius: 50%;
+                                color: white;
+                            }
+                            .detail{
+                                font-size: 23.077rpx;
+                                position: relative;
+                                bottom: -19.231rpx;
+                                }
+                        }
+                    }
+                    .price{
+                        color: #656590;
+                        background-color: rgba($color: #1719DB, $alpha: 0.2);
+                        .orderInformation_item_right{
+                            .icon-dingdan{
+                                background-color: #767694;
+                            }
+                        }   
+                      
+                    }
+                    .onDuty{
+                        color: #626F23;
+                        background-color: rgba($color: #C3DB17, $alpha: 0.2);
+                        .orderInformation_item_right{
+                            .icon-dingdan{
+                                background-color: #919B5B;
+                            }
+                        }   
+                    }
+                    .wait{
+                        color: #7D5C39;
+                        background-color: rgba($color: #DB8217, $alpha: 0.2);
+                        .orderInformation_item_right{
+                            .icon-dingdan{
+                                background-color: #966735;
+                            }
+                        }    
+                    }
+                }
+            }
+        }
+    }
+}

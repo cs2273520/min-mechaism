@@ -1,0 +1,100 @@
+.main{
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .top{
+        width: 100%;
+        display: flex;
+        background-color: #005826;
+        color: white;
+        justify-content: space-between;
+        height: 95px;
+        align-items: center;
+        padding: 0 19px;
+        box-sizing: border-box;
+        .icon-renyuan-{
+            font-size: 55px;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            background-color: white;
+            color: #005826;
+        }
+        .mechanismName{
+            font-size: 14px;
+            font-weight: bold;
+            view{
+                margin-bottom: 5px;
+            }
+        }
+        .logout{
+            width: 72px;
+            height: 27px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+            border: 1px solid white;
+            font-size: 14px;
+        }
+    }
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        .content_item{
+            display: flex;
+            flex-direction: column;
+            width: 343px;
+            border-radius: 8px;
+            background-color: white;
+           
+            margin: 10px 0;
+            .content_item_title{
+                font-size: 14px;
+                font-weight: bold;
+                height: 42px;
+                display: flex;
+                padding: 10px;
+                box-sizing: border-box;
+                align-items: center;
+                border-bottom: 1px solid #f2f2f2;
+            }
+            .content_item_content{
+                height: 96px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .content_item_content_item{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    flex: 1;
+                    .iconfont{
+                        margin-bottom: 5px;
+                        width: 35px;
+                        height: 35px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 50%;
+                        background-color: #B3B3B3;
+                        color: white;
+                        font-size: 20px;
+                    }
+                    .content_item_content_item_choose{
+                        font-size: 14px;
+                    }
+                }
+              
+            }
+        }   
+      
+       
+    }
+}

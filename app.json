@@ -1,0 +1,33 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/personnelManagement/personnelManagement",
+       
+        "pages/search/search",
+        "pages/center/center"
+     
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#005826",
+        "navigationBarTitleText": "智慧养老小程序",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "/image/tabbar/index.png",
+                "selectedIconPath": "/image/tabbar/index_s.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/center/center",
+                "iconPath": "/image/tabbar/center.png",
+                "selectedIconPath": "/image/tabbar/center_s.png",
+                "text": "机构"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

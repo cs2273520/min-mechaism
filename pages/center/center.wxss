@@ -1,0 +1,107 @@
+.main {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .top {
+  width: 100%;
+  display: flex;
+  background-color: #005826;
+  color: white;
+  justify-content: space-between;
+  height: 95px;
+  align-items: center;
+  padding: 0 19px;
+  box-sizing: border-box;
+}
+
+.main .top .icon-renyuan- {
+  font-size: 55px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: white;
+  color: #005826;
+}
+
+.main .top .mechanismName {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.main .top .mechanismName view {
+  margin-bottom: 5px;
+}
+
+.main .top .logout {
+  width: 72px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 1px solid white;
+  font-size: 14px;
+}
+
+.main .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .content .content_item {
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  border-radius: 8px;
+  background-color: white;
+  margin: 10px 0;
+}
+
+.main .content .content_item .content_item_title {
+  font-size: 14px;
+  font-weight: bold;
+  height: 42px;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.main .content .content_item .content_item_content {
+  height: 96px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main .content .content_item .content_item_content .content_item_content_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.main .content .content_item .content_item_content .content_item_content_item .iconfont {
+  margin-bottom: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #B3B3B3;
+  color: white;
+  font-size: 20px;
+}
+
+.main .content .content_item .content_item_content .content_item_content_item .content_item_content_item_choose {
+  font-size: 14px;
+}

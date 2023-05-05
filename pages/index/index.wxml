@@ -1,0 +1,182 @@
+<view class="main">
+   <view class="top">
+       <view class="top_content" bindtap="toSearch">
+           <view class="top_content_left">
+              <text>科技</text>  
+              <text>养老</text>
+           </view>
+           <view class="top_content_center">
+            广东科技养老护理有限公司
+            </view>
+            <view class="top_content_right">
+                hide
+            </view>
+       </view>
+   </view>
+   <view class="content">
+       <view class="content_item">
+           <view class="content_item_content">
+               <view class="content_item_content_left">
+                   <view class="content_item_content_left_item">
+                   
+                    <view>
+                        机构详情  
+                    </view>
+                    <view class="iconfont icon-xiangyou1">
+                       
+                    </view>
+                   </view>
+                 
+               </view>
+               <view class="content_item_content_right">
+                   <view class="content_item_content_right_item">
+                      <view class="content_item_content_right_item_price">
+                          <view>
+                            1000￥
+                          </view>
+                          <view>
+                              本月收益
+                          </view>
+                      </view> 
+                      <view class="content_item_content_right_item_icont">
+                          <view class="iconfont icon-qianbao">
+                              
+                          </view>
+                      </view>
+                   </view>
+                   <view class="content_item_content_right_item order">
+                      <view class="content_item_content_right_item_price">
+                          <view>
+                            68
+                          </view>
+                          <view>
+                              本月订单
+                          </view>
+                      </view> 
+                      <view class="content_item_content_right_item_icont">
+                          <view class="iconfont icon-dingdan">
+                              
+                          </view>
+                      </view>
+                   </view>
+                </view>
+           </view>
+       </view>
+
+       <view class="content_item">
+        <view class="content_item_title">
+                   <view class="content_item_content_left_item">
+                    信息流
+                   </view>
+                  
+               </view>
+           <view class="content_item_content">
+            <view class="info">
+            <view class="info_left">
+                <view class="info_item">
+                   <text>• 护理人员xxx完成服务，订单已完成</text> 
+                   <text>1小时前</text>
+                </view>
+                <view class="info_item">
+                   <text>• 护理人员xxx完成服务，订单已完成</text> 
+                   <text>2小时前</text>
+                </view>
+                <view class="info_item">
+                   <text>• 护理人员xxx完成服务，订单已完成</text> 
+                   <text>3小时前</text>
+                </view>
+            </view>
+            <view class="info_right">
+                <view class="iconfont icon-xiangyou1">
+                    
+                </view>
+            </view>
+             
+            </view>
+           </view>
+       </view>
+
+       <view class="content_item">
+        <view class="content_item_title">
+                   <view class="content_item_content_left_item">
+                    订单信息
+                   </view>
+                  
+               </view>
+           <view class="content_item_content">
+                <view class="orderInformation">
+                    <view class="orderInformation_item">
+                        <view class="orderInformation_item_left">
+                            <text>10</text>
+                            <text>今日接单</text>
+                        </view>
+                        <view class="orderInformation_item_right">
+                            <view class="iconfont icon-dingdan">
+                                
+                            </view>
+                            <view class="detail">
+                                订单详情 >
+                            </view>
+                        </view>
+                    </view>
+                    <view class="orderInformation_item price">
+                        <view class="orderInformation_item_left">
+                            <text>200￥</text>
+                            <text>今日收益</text>
+                        </view>
+                        <view class="orderInformation_item_right">
+                            <view class="iconfont icon-dingdan">
+                                
+                            </view>
+                            <view class="detail">
+                                收益详情 >
+                            </view>
+                        </view>
+                    </view>
+                </view>
+           </view>
+       </view>
+
+       <view class="content_item">
+        <view class="content_item_title">
+                   <view class="content_item_content_left_item">
+                    人员信息
+                   </view>
+                  
+               </view>
+           <view class="content_item_content">
+                <view class="orderInformation">
+                    <view class="orderInformation_item onDuty">
+                        <view class="orderInformation_item_left">
+                            <text>10</text>
+                            <text>在班人员</text>
+                        </view>
+                        <view class="orderInformation_item_right">
+                            <view class="iconfont icon-dingdan">
+                                
+                            </view>
+                            <view class="detail">
+                                人员工况 >
+                            </view>
+                        </view>
+                    </view>
+                    <view class="orderInformation_item wait">
+                        <view class="orderInformation_item_left">
+                            <text>2</text>
+                            <text>候单人员</text>
+                        </view>
+                        <view class="orderInformation_item_right">
+                            <view class="iconfont icon-dingdan">
+                                
+                            </view>
+                            <view class="detail">
+                                人员管理 >
+                            </view>
+                        </view>
+                    </view>
+                </view>
+           </view>
+       </view>
+
+   </view>
+</view>

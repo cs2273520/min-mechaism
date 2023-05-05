@@ -1,0 +1,23 @@
+<view class="main">
+    <view class="top">
+    <view class="top_item">
+        <view class="top_search">
+            <view class="iconfont icon-sousuo">
+                
+            </view>
+            <input type="text" placeholder="请输入搜索关键词"/>
+        </view>
+        <view class="top_cancel">
+            取消
+        </view>
+    </view>
+    <view class="top_item choose">
+        <view class="top_item_content">
+            <view>
+                
+            </view>
+        </view>
+    </view>
+  
+    </view>
+</view>

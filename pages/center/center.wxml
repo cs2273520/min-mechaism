@@ -1,0 +1,73 @@
+<view class="main">
+    <view class="top">
+        <view class="iconfont icon-renyuan-">
+            
+        </view>
+        <view class="mechanismName">
+            <view>
+                机构用户
+            </view>
+            <view>
+                广东智慧养老科技有限公司
+            </view>
+        </view>
+        <view class="logout">
+            退出
+        </view>
+    </view>
+    <view class="content">
+        <view class="content_item">
+            <view class="content_item_title">
+                财务管理
+            </view>
+            <view class="content_item_content">
+                <view class="content_item_content_item">
+                    <view class="iconfont icon-licai"></view>
+                    <view class="content_item_content_item_choose">
+                        余额管理
+                    </view>
+                </view>
+                <view class="content_item_content_item">
+                    <view class="iconfont icon-dingdan1"></view>
+                    <view class="content_item_content_item_choose">
+                        订单管理
+                    </view>
+                </view>
+                <view class="content_item_content_item">
+                    <view class="iconfont icon-jilu"></view>
+                    <view class="content_item_content_item_choose">
+                        收款记录
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="content_item">
+            <view class="content_item_title">
+               机构管理
+            </view>
+            <view class="content_item_content">
+                <view class="content_item_content_item">
+                    <view class="iconfont icon-renyuanguanli"></view>
+                    <view class="content_item_content_item_choose">
+                        机构资料
+                    </view>
+                </view>
+                <view class="content_item_content_item">
+                    <view class="iconfont icon-wulumuqishigongandashujuguanlipingtai-ico-"></view>
+                    <view class="content_item_content_item_choose">
+                        排班管理
+                    </view>
+                </view>
+                <view class="content_item_content_item">
+                    <view class="iconfont icon-shoucang"></view>
+                    <view class="content_item_content_item_choose">
+                        护理人员管理
+                    </view>
+                </view>
+            </view>
+        </view>
+
+
+    </view>
+</view>

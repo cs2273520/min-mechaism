@@ -1,0 +1,78 @@
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .top {
+  width: 100%;
+  padding: 19px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .top .top_search {
+  display: flex;
+  width: 270px;
+  height: 34px;
+  border: 1px solid #BBBBBB;
+  border-radius: 16px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.main .top .top_search .icon-sousuo {
+  font-size: 13px;
+}
+
+.main .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.main .content .content_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .content .content_item .content_item_title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.main .content .content_item .content_item_title .clear_history {
+  color: #A9A9A9;
+}
+
+.main .content .content_item .content_item_content {
+  display: flex;
+  font-size: 12px;
+  padding: 10px 0;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.main .content .content_item .content_item_content .content_item_content_item {
+  padding: 5px 15px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFF0F5;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}

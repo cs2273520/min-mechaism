@@ -1,0 +1,65 @@
+<view class="main">
+    <view class="top">
+        <view class="top_search">
+            <input type="text" placeholder="白岩松"/>
+            <view class="iconfont icon-sousuo">
+                
+            </view>
+        </view>
+        <view class="top_cancel">
+            取消
+        </view>
+    </view>
+    <view class="content">
+       <view class="content_item">
+       <view class="content_item_title">
+        <view>
+               搜索历史
+           </view>
+           <view class="clear_history">
+               清空历史
+           </view>
+       </view>
+       <view class="content_item_content">
+           <view class="content_item_content_item">
+               刘德华
+           </view>
+           <view class="content_item_content_item">
+            古天乐
+           </view>
+       </view>
+           
+       </view>
+       <view class="content_item">
+       <view class="content_item_title">
+        <view>
+               热搜词
+           </view>
+           <view class="clear_history">
+             
+           </view>
+       </view>
+       <view class="content_item_content">
+           <view class="content_item_content_item">
+               刘德华
+           </view>
+           <view class="content_item_content_item">
+            古天乐
+           </view>
+           <view class="content_item_content_item">
+               刘德华
+           </view>
+           <view class="content_item_content_item">
+            古天乐
+           </view>
+           <view class="content_item_content_item">
+               刘德华
+           </view>
+           <view class="content_item_content_item">
+            古天乐古天乐
+           </view>
+       </view>
+           
+       </view>
+    </view>
+</view>
